@@ -52,7 +52,7 @@ cp [options] source destination
 
 ### Common Options:
 
-![Image](./1.png)
+![Image](./Screenshot.png)
 
 * `-r` : Recursively copy directories.
 
@@ -107,8 +107,7 @@ This renames `file1.txt` to `file2.txt` or moves it to a different location if t
 ## 🔚 Summary
 
 | Command  | Description              | Example              |
-| -------- | ------------------------ | -------------------- |
-| `rm`     | Remove files             | `rm file.txt`        |
+| -------- | ------------------------ | -------------------- | `rm`     | Remove files             | `rm file.txt`        | 
 | `rm -rf` | Force remove recursively | `rm -rf /mydir`      |
 | `cp`     | Copy files               | `cp a.txt b.txt`     |
 | `cp -r`  | Copy directories         | `cp -r dir1 dir2`    |
@@ -125,4 +124,4 @@ This renames `file1.txt` to `file2.txt` or moves it to a different location if t
 
 Would you like me to export this as a downloadable `.md` file?
 ```
-[My terminal work] (./Screenshot.png)
+[My terminal work] (./Screenshot.png)# Linux_lab

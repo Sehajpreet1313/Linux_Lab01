@@ -1,0 +1,36 @@
+# Basic linux commands
+
+```bash
+>>pwd
+
+
+output example:
+
+
+/d/upes/Linux_lab
+
+## ls commamd
+
+```bash
+>>ls
+
+
+### ls flags
+
+```bash
+>>ls -la
+```
+## ls-la output
+
+```
+total 554
+drwxr-xr-x 1 sehaj 197609      0 Aug 12 12:21 ./
+drwxr-xr-x 1 sehaj 197609      0 Aug 12 12:35 ../
+drwxr-xr-x 1 sehaj 197609      0 Aug 12 13:06 .git/
+-rw-r--r-- 1 sehaj 197609      0 Aug 11 09:12 1.png
+-rw-r--r-- 1 sehaj 197609     65 Aug 11 09:49 hell.c
+-rw-r--r-- 1 sehaj 197609    188 Aug 12 13:16 linux_lab03
+-rw-r--r-- 1 sehaj 197609   2612 Aug 12 10:43 Readme.md
+-rw-r--r-- 1 sehaj 197609 548852 Aug  7 11:52 Screenshot.png
+```
+![work](./Screenshot 2025-08-12 131703.png)
