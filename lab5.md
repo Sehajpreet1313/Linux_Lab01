@@ -1,3 +1,4 @@
+
 ---
 
 # 🐚 **Shell Scripting Tutorial – Part 1: Introduction & Basics**
@@ -60,7 +61,7 @@ You can store data in variables:
 ```bash
 #!/bin/bash
 
-name="Vibhu"
+name="sehaj"
 age=37
 
 echo "My name is $name"
