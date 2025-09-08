@@ -13,7 +13,7 @@ more.
 
     2 select your operating system
 #### output :
-![Image](<Screenshot from 2025-09-05 10-52-12.png>)
+![Image](<Screenshot from 2025-09-05 10-52-12-1.png>)
 
 ## STEP 2 : INSTALLING VIRTUAL BOX
     
@@ -25,15 +25,15 @@ more.
 
  ### 3 ready to install
 #### output 
-![Image](<Screenshot from 2025-09-05 10-51-33.png>)
+![Image](<Screenshot from 2025-09-05 10-51-20.png>)
 
  ### 4 installation complete 
 #### output 
-![Image](<Screenshot from 2025-09-05 10-49-55.png>)
+![Image](<Screenshot from 2025-09-05 10-51-33 (1).png>)
 
  ### 5 opening virtualbox
 #### output: 
-![Image](img10.png)
+![Image](<Screenshot from 2025-09-05 10-49-55 (1).png>)
 ## STEP 3 : INSTALLING LINUX USING VIRTUALBOX
 ### 1 Naming virtual machine
 
@@ -45,10 +45,10 @@ more.
 
    – Select Version: Ubuntu
    #### output 
-   ![Image](img12.png)
+   ![Image](<img12 (1).png>)
 ### 2 select the amount of ram
-#### output 
-![Image](img13.png)
+#### output
+![Image](<img13 (1).png>)
 
 ### 3 Hard Disk setting
   Select hard disk setting:
@@ -85,7 +85,7 @@ more.
 ### Make your Account:
 – Enter your details as shown below
 Like as : password, username, etc.
-![Image](img18.png)
+![Image](img18-1.png)
 # Finally We have successfully installed the UBUNTU LINUX .
 
 
