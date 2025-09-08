@@ -60,8 +60,8 @@ You can store data in variables:
 ```bash
 #!/bin/bash
 
-name="Vibhu"
-age=37
+name="Sehaj"
+age=19
 
 echo "My name is $name"
 echo "I am $age years old"
