@@ -5,23 +5,23 @@
   ```
  #!/bin/bash      - shebang
  echo "hello world!"     - printing hello world
- name="Ashish Choudhary"   - taking Ashish choudharyvin variable name
+ name="sehajpreet singh"   - taking sehajpreet singh in variable name
  age=18    -  taking 18 in variable age 
 
  echo "My name is $name ansd I am $age year old."  - printing name and age
 ```
 #### OUTPUT :
-[Image](../../../../../Downloads/671f86ce-8b0b-4601-8c3e-f7361d6f3cb1.tmp)
-
+![Image](IMG-20250908-WA0048.jpg)
+![Image](IMG-20250908-WA0046.jpg)
 
 # 🔧 script 2
 
 ```
 #!/bin/bash        -shebang
-a="Ashish Choudhary"           -taking Ashish choudhary in the variable a
+a="sehajpreet singh"           -taking sehajpreet singh in the variable a
 b=40                 -taking 40 in the variable b
 
-if [ $a="Ashish CHoudhary" ] && [ $b -gt 18 ]; then      -checking conditions and using an opreator and(&&)
+if [ $a="sehajpreet singh" ] && [ $b -gt 18 ]; then      -checking conditions and using an opreator and(&&)
     echo " you are adult "                     - printing you are adult
 fi
 
@@ -30,8 +30,8 @@ if [ $a=" akshat" ] && [ $b -lt 18 ]; then       -checking conditions and using 
 fi
 
 ```
-![Image](<Screenshot from 2025-09-08 01-07-53.png>)
-![Image](<Screenshot from 2025-09-08 01-11-20.png>)
+![Image](IMG-20250908-WA0045.jpg)
+![Image](IMG-20250908-WA0047.jpg)
 ### 🔧 Q1 what is the purpose of #!/bin/bash at the top of the script
 
 ANS-- the shebang line at the top of a script specifies the interpreter that should be used to the run the script.
