@@ -16,8 +16,8 @@ if [ $a=" akshat" ] && [ $b -lt 18 ]; then       ---checking conditions and usin
 fi
 
 ```
-![Image](IMG-20250908-WA0045-1.jpg)
-![Image](IMG-20250908-WA0047-1.jpg)
+![Image](<WhatsApp Image 2025-09-08 at 22.03.33_dff96428-1.jpg>)
+![Image](<WhatsApp Image 2025-09-08 at 22.03.20_d76f3927.jpg>)
 ##  modified script
 
 ```
