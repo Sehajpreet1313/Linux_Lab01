@@ -11,7 +11,7 @@
    ### 📌 Output example:
  /home/ashishkumar/Assignment 
 
-![Image](IMG-20250908-WA0029.jpg)
+![Image](IMG-20250908-WA0027.jpg)
 
 
 ## `ls` – List Directory Contents
@@ -117,7 +117,7 @@ echo "Hello, World!"
 whoami
 ```
 ### output :
-![Image](<Screenshot from 2025-09-07 17-10-21.png>)
+
 ---
 
 ### `man` – Manual for Any Command
@@ -254,7 +254,6 @@ Meaning:
 * Others: 7 → `r-w-x`
 
 ### **image**
-![Image](<Screenshot from 2025-09-07 22-16-26.png>)
 
 ### (B) Symbolic Method  
 
@@ -268,7 +267,7 @@ Operators:
 
 Modes can be set in **numeric (octal)** or **symbolic** form.
 #### output:
-![Image](IMG-20250908-WA0038.jpg)
+![Image](IMG-20250908-WA0038-1.jpg)
 ---
 ### (C) Recursive Changes
 
@@ -279,7 +278,7 @@ chmod -R 755 /mydir
 * `-R` → applies changes recursively to all files/subdirectories.
 
 ![Image](IMG-20250908-WA0040.jpg)
-![Image](IMG-20250908-WA0041.jpg)
+![Image](IMG-20250908-WA0041-1.jpg)
 ![Image](IMG-20250908-WA0042.jpg)
 ---
 
