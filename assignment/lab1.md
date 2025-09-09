@@ -24,7 +24,7 @@
 ```
 #### output is :
 ![Image](IMG-20250908-WA0028.jpg)
-![Image](IMG-20250908-WA0026.jpg)
+![Image](<WhatsApp Image 2025-09-09 at 22.57.06_fbba37cf.jpg>)
 ## `cd` – Change Directory
    Moves into a directory.
   
