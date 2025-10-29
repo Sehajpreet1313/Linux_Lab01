@@ -3,7 +3,7 @@
 # **Introduction**
 ✨Secure Shell (SSH) is a cryptographic network protocol used for secure communication between two networked devices. It provides a secure channel over an unsecured network using encryption, making it a preferred method for remote system administration and secure file transfers in Linux environments.
 
-![image1](images/ssh.c)
+[image1](../images/ssh.c)
 
 ---
 
