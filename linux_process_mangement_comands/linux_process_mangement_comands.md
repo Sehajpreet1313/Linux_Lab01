@@ -78,6 +78,7 @@ nice -n 10 sleep 300 &
 [1] 3050
 
 ```
+![image](<Screenshot 2025-11-01 143319.png>)
 - Change priority of running process:
 ```
 renice -n -5 -p 3050
@@ -92,12 +93,13 @@ renice -n -5 -p 3050
 taskset -cp 3050
 pid 3050's current affinity list: 0-3
 ```
+![image](<Screenshot 2025-11-01 145157-3.png>)
 - Restrict to core 1 only:
 ```
 taskset -cp 1 3050
 pid 3050's current affinity list: 1
 ```
-
+![image](<Screenshot 2025-11-01 145157-2.png>)
 ---
 
 ## 📂 **6. I/O Scheduling Priority: `ionice`**
@@ -105,6 +107,7 @@ pid 3050's current affinity list: 1
 ionice -c 3 -p 3050
 successfully set pid 3050's IO scheduling class to idle
 ```
+![image](<Screenshot 2025-11-01 145157-4.png>)
 👉 Class 3 (idle) → Process only gets I/O when system is idle.
 
 ---
@@ -118,7 +121,7 @@ sleep 3347 vboxuser txt REG 8,2 35336 275947 /usr/bin/sleep
 sleep 3347 vboxuser mem REG 8,2 5719296 278970 /usr/lib/locale/locale-archive
 
 ```
-
+![image](<Screenshot 2025-11-01 145214-1.png>)
 ---
 
 ## 🐛 **8. Trace System Calls: `strace`**
@@ -128,7 +131,7 @@ strace: Process 3347 attached
 restart_syscall(<... resuming interrupted nanosleep ...>) = 0
 nanosleep({tv_sec=300, tv_nsec=0}, 0x7ffd4a60d8b0) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
 ```
-
+![image](<Screenshot 2025-11-01 145214-2.png>)
 ---
 
 ## 📡 **9. Find Process Using a Port: `fuser`**
@@ -136,6 +139,7 @@ nanosleep({tv_sec=300, tv_nsec=0}, 0x7ffd4a60d8b0) = ? ERESTART_RESTARTBLOCK (In
 sudo fuser -n tcp 8080
 8080/tcp:           4321
 ```
+
 
 ---
 
@@ -147,7 +151,7 @@ linux 6.14.0-33-generic (sehajpreet) 11/01/2025    _x86_64     (4 cpu)
 
 09:21:21  AM  UID  PID  %usr  %system  %guest   %wait  %CPU  command
 ```
-
+![image](<Screenshot 2025-11-01 145214-3.png>)
 ---
 
 ## 🔐 **11. Control Groups (cgroups)**
