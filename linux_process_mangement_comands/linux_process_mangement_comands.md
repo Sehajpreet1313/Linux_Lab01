@@ -75,13 +75,13 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   4638.2 avail Mem
 - Start process with low priority:
 ```
 nice -n 10 sleep 300 &
-[1] 3050
+[1] 3347
 
 ```
 ![image](<Screenshot 2025-11-01 143319.png>)
 - Change priority of running process:
 ```
-renice -n -5 -p 3050
+renice -n -5 -p 3347
 3050 (process ID) old priority 10, new priority -5
 ```
 
@@ -90,21 +90,21 @@ renice -n -5 -p 3050
 ## 🔧 **5. CPU Affinity: `taskset`**
 - Show affinity:
 ```
-taskset -cp 3050
-pid 3050's current affinity list: 0-3
+taskset -cp 3347
+pid 3347's current affinity list: 0-3
 ```
 ![image](<Screenshot 2025-11-01 145157-3.png>)
 - Restrict to core 1 only:
 ```
-taskset -cp 1 3050
-pid 3050's current affinity list: 1
+taskset -cp 1 3347
+pid 3347's current affinity list: 1
 ```
 ![image](<Screenshot 2025-11-01 145157-2.png>)
 ---
 
 ## 📂 **6. I/O Scheduling Priority: `ionice`**
 ```
-ionice -c 3 -p 3050
+ionice -c 3 -p 3347
 successfully set pid 3050's IO scheduling class to idle
 ```
 ![image](<Screenshot 2025-11-01 145157-4.png>)
